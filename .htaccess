@@ -1,4 +1,1 @@
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^cakescove.com [NC,OR]
-RewriteCond %{HTTP_HOST} ^www.cakescove.com [NC]
-RewriteRule ^(.*)$ https://www.thegoodsweets.com//$1 [L,R=301,NC]
+Redirect 301 /* http://thegoodsweets.com
